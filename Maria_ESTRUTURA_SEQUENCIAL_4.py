@@ -1,3 +1,4 @@
+#desenvolvido por: Maria Clara Marinho Torres 
 nota_1 = float(input("Informe sua nota 1:"))
 nota_2 = float(input("Informe sua nota 2:"))
 nota_3 = float(input("Informe sua nota 3:"))

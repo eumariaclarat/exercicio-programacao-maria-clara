@@ -1,3 +1,5 @@
+
+#desenvolvido por: Maria Clara Marinho Torres 
 numero_1 = input("Informe o primeiro número: ")
 numero_2 = input("Informe o segundo número :")
 if numero_1 > numero_2:
