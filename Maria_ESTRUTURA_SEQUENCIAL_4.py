@@ -1,3 +1,4 @@
+#Faça um programa que peça as 4 notas bimestrais e mostre a média:
 #desenvolvido por: Maria Clara Marinho Torres 
 nota_1 = float(input("Informe sua nota 1:"))
 nota_2 = float(input("Informe sua nota 2:"))
