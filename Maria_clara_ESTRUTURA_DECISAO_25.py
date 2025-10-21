@@ -8,8 +8,30 @@
 #Se a pessoa responder positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino".
 #Caso contrário, ele será classificado como "Inocente".
 #desenvolvido por: Maria Clara Marinho Torres
+crime = 0
+respostas= input("Telefonou para a vítima?")
+#se
+if respostas == "sim":
+  crime = crime + 1
+  
+respostas = input("Esteve no local do crime?")
+if respostas == "sim":
+  crime = crime + 1
 
-crime = input("")
+respostas = input("Mora perto da vítima?")
+if respostas == "sim":
+  crime = crime + 1
+
+respostas = input("Devia para a vítima?")
+if respostas == "sim":
+  crime = crime + 1
+
+respostas = input("Já trabalhou com a vítima?")
+if respostas == "sim":
+  crime = crime + 1
+
+
+
 #se
 if crime<=2:
   print("Suspeita")
