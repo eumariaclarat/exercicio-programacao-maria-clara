@@ -13,4 +13,4 @@ while nome == senha:
     nome = input("Informe seu nome: ")
     senha = input("Informe sua senha: ")
 
-print("Oie,", nome, "sua senha está segura ! ;)")
+print("Oie,", nome, "sua senha está segura ! :)")
