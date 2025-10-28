@@ -4,6 +4,7 @@
 
 
 valor = int(input("Informe uma nota entre 0 e 10: "))
+#enquanto
 while valor <0 or valor >10:
     print("valor inválido")
     valor = int(input("Informe uma nota entre 0 e 10: "))
