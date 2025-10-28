@@ -3,7 +3,9 @@
 
 numero_1 = input("Informe o primeiro número: ")
 numero_2 = input("Informe o segundo número :")
+#se
 if numero_1 > numero_2:
     print("número_1 é maior!")
+    #senao se
 elif numero_1 < numero_2:
     print("número_2 é  maior!")
