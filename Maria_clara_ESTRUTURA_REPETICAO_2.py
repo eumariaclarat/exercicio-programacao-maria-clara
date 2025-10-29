@@ -3,9 +3,11 @@
 #Mostrando uma mensagem de erro e voltando a pedir as informações.
 #desenvolvido por: Maria Clara Marinho Torres
 
+#input:leia
+#print:escreva
 nome = input("Informe seu nome: ")
 senha = input("Informe sua senha: ")
-
+#while:enquanto
 while nome == senha:
     print("Sua senha não pode ser seu nome.")
     print("Por favor, informe novamente seu nome e sua senha!")

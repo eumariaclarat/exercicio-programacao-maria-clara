@@ -5,6 +5,9 @@
 #A mensagem "Aprovado com Distinção", se a média for igual a dez.
 #desenvolvido por: Maria Clara Marinho Torres 
 
+#float: numero decimal/com virgula
+#input:leia
+#print:escreva
 nota1 = float(input("Informe a média:"))
 nota2 = float(input("Informe a média:"))
 media = (nota1 + nota2) / 2

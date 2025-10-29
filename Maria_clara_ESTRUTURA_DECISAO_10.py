@@ -5,6 +5,8 @@
 #Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
 #desenvolvido por: Maria Clara Marinho Torres 
 
+#input:leia
+#print:escreva
 turno = input("Digite o turno: M,V ou N.")
 #se
 if turno=="M":

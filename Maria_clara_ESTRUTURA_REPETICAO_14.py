@@ -3,13 +3,14 @@
 
 pares = 0
 impares = 0
-#para
-#intervalo
+#for:para
+#in range:intervalo
 for i in range(10):
     numero = int(input(f"Digite o {i+1}º número inteiro: "))
-    
+ #if:se   
     if numero % 2 == 0:
         pares += 1
+#else:senao
     else:
         impares += 1
 print("Quantidade de números pares:",pares)

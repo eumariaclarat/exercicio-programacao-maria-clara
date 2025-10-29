@@ -1,6 +1,9 @@
 #Faça um programa que leia 5 números e informe a soma e a média dos números.
 #desenvolvido por: Maria Clara Marinho Torres
 
+#input:leia
+#print:escreva
+#float: numero decimal/com virgula
 numeros = 0
 numero1= float(input("Informe o primeiro número:"))
 numero2 = float(input("Informe o segundo número:"))
